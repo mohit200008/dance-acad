@@ -1,3 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,500;1,100;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Work+Sans:ital,wght@0,400;0,500;1,100;1,200&display=swap');
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+#navbar {
+    background-color:darkslategrey;
+    padding: 13px 14px;
+}
 #navbar ul{
     display: flex;
     flex-direction: row;
@@ -6,8 +18,37 @@
 
 #navbar li {
     list-style: none;
+   
 } 
 #navbar li a {
     text-decoration: none;
-    padding: 7px 25px;
+    color: lightpink;
+    font-size: 1rem;
+    padding:15px 27px;
+}
+#navbar li a:hover {
+    color: whitesmoke;
+}
+#intro-section{
+    color: moccasin;
+    font-family: 'Krona One', sans-serif;
+    font-size: 2rem;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background: center/cover no-repeat url("/static/dance.jpg");
+    height: 520px;
+    background-color: red;
+}
+#sponsers-section{
+    height: 400px;
+    background-color: beige;
+}
+#sponsers-section h2{
+    text-align: center;
+    padding-top: 12px;
+}
+#footer{
+    height: 100px;
+    background-color: black;
 }
