@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,500;1,100;1,200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Work+Sans:ital,wght@0,400;0,500;1,100;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&display=swap');
+
 *{
     margin: 0px;
     box-sizing: border-box;
@@ -22,23 +24,47 @@
 } 
 #navbar li a {
     text-decoration: none;
-    color: lightpink;
+    color:whitesmoke;
     font-size: 1rem;
     padding:15px 27px;
 }
 #navbar li a:hover {
-    color: whitesmoke;
+    color:salmon;
 }
 #intro-section{
-    color: moccasin;
-    font-family: 'Krona One', sans-serif;
-    font-size: 2rem;
+    color:darkorange;
+    font-family: 'Arvo', serif;
+    font-size: 65px;
     display: flex;
+    flex-direction: column;
     justify-content:center;
     align-items: center;
     background: center/cover no-repeat url("/static/dance.jpg");
     height: 520px;
     background-color: red;
+}
+
+#intro-section div.small{
+    font-size: 32px;
+    color:gainsboro;
+    font-family: 'Caveat', cursive;
+
+    padding: 5px;
+
+}
+.card {
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 27%;
+    height: 150px;
+    margin: 20px 40px;
+    box-shadow:20px 20px 10px grey;
+    background: crimson;
+}
+#mission-section h2 {
+    text-align: center;
+
 }
 #sponsers-section{
     height: 400px;
