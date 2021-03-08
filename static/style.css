@@ -118,4 +118,8 @@
     align-items: center;
     font-size: 20px;
     background-color: black;
+    clear: both;
+    position: relative;
+    height: 52px;
+    margin-top: 67px;
 }
