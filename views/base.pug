@@ -1,0 +1,20 @@
+//- layout.pug
+doctype html 
+html
+  head
+    title  ML-Dance Academy
+    block scripts
+    block style
+  body
+    nav#navbar
+        ul 
+            div#logo
+                img(src="/static/noun_Off the wall_232077.png") 
+            li #[a(href="/") Home] 
+            li #[a(href="/") About] 
+            li #[a(href="/") Services] 
+            li #[a(href="/") Class Info] 
+            li #[a(href="/") Contact Info] 
+    block content
+    footer#footer
+        | Copyright © 2021 ML-DanceAcademy.com All rights reserved 

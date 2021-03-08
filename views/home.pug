@@ -1,0 +1,45 @@
+extends base.pug
+
+block scripts 
+  script(src="/static/index.js")
+
+block style 
+    style 
+      include ../static/style.css
+
+block content 
+     
+     section#intro-section
+        div Welcome to ML-dance academy 
+        div.small Rock and Roll and dance
+     section#mission-section
+        h2 Our Mission
+        div.card 
+            h2 Dance is an art
+            div.card-box
+                div.card-img 
+                    img(src="/static/logo.png")
+                div.card-content
+                    h2 Best dance academy ever 
+        div.card 
+            h2 Dance bring discipline
+             div.card-box
+                div.card-img 
+                    img(src="/static/838-8385106_hip-hop-break-dance-logo-design.png")
+                div.card-content
+                    p disciplined life heathy life
+                    
+        div.card 
+            h2 Expert teaching  
+             div.card-box
+                div.card-img 
+                    img(src="/static/istockphoto-1153637131-612x612.jpg")
+                div.card-content
+                    p  A work of professionals
+     section#sponsers-section
+        h2 Our Sponsors  
+        div#sponsers
+            img(src="/static/logo1.png", alt="sponser-image",class="spimage")
+            img(src="/static/logo2.png", alt="sponser-image",class="spimage") 
+            img(src="/static/logo3.jpg", alt="sponser-image",class="spimage") 
+            img(src="/static/logo4.png", alt="sponser-image",class="spimage")  
